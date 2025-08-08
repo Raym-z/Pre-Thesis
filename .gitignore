@@ -1,1 +1,16 @@
-**/*.png
+# Ignore image dataset folders
+images/
+images2/
+
+# (optional) ignore any .jpg/.png anywhere
+*.jpg
+*.jpeg
+*.png
+
+# (optional) ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore model weight files
+resnet_style.pt
+vit_model.pt
